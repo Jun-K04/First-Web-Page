@@ -28,7 +28,17 @@
         display: grid;
         grid-template-columns: 1fr 4.5fr;
       }
-      
+      @media(max-width:1300px) {
+        #grid {
+          display: block;
+        }
+        h1 {
+          text-align: left;
+        }
+        ol {
+          border-right: none;
+        }
+      }
     </style>
   </head>
     <body>
